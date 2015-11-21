@@ -6,5 +6,5 @@
 
 ### [Laravel](laravel/laravel.md) (a modern PHP framework)
 
-### [Ionic Framework](ionic/ionic.md) (a hybrid mobile app framework)
+### [Ionic Framework](ionic-framework/ionic.md) (a hybrid mobile app framework)
 
