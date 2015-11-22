@@ -37,39 +37,3 @@ After that, just wait for the installation process to complete.
 ### Play around and have fun !
 
 
-
-
-
-```
-<?php
-    echo "OCEF ROCKS! ^_^";
-?>
-```
-
-And name it with file extension .php.
-
-#### Run the PHP file from command line
-
-Under command line, enter work directory (where your file resides), and run the ofllowing command
-
-```
-php YOUR-PHP-FILE-NAME
-```
-
-#### Visit the web page created by this PHP file via a Browser
-
-###### Under command line, enter work directory.
-
-###### Run the following command to start a built-in simple web server that comes with PHP
-
-```
-php -S localhost:9999
-```
-
-###### Open a browser and type in URL
-
-```
-http://localhost:9999/YOUR-PHP-FILE-NAME
-```
-
-You should now see "OCEF Rocks! ^_^" on the page in your browser.
