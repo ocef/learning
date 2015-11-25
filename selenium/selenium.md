@@ -38,7 +38,9 @@ driver.quit();
 
 * Run it (still under Git Bash command line) to prove that you can program to drive a Chrome browser: 
 
+```
 node test.js
+```
 
 A new Chrome browser should be opened at this point. As soon as the window is completely loaded, it will be closed. 
 Because this particular website (ocef.org) involves loading external resources such as Sina weibo, the process is enjoyably slow.
