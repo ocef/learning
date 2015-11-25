@@ -36,3 +36,4 @@
 
 ### [Ionic Framework](ionic-framework/ionic.md) (a hybrid mobile app framework)
 
+### [Selenium](selenium/selenium.md) (Browser Automation)
