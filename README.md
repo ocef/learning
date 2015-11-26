@@ -10,6 +10,7 @@
 
 ### [Aid System](aid/aid.md) 
 
+
 ## Collaboration Platforms
 
 ### [JIRA (Atlassian)](jira/jira.md) for Issue Tracking 
@@ -24,7 +25,6 @@
 
 ### [Google Apps for Non-profits](googleapps/googleapps.md) 
 
-----
 
 ## Technologies
 
@@ -37,3 +37,7 @@
 ### [Ionic Framework](ionic-framework/ionic.md) (a hybrid mobile app framework)
 
 ### [Selenium](selenium/selenium.md) (Browser Automation)
+
+
+## [Resources for U.S. 501(c)(3) Organizations](resources/501-c-3/501-c-3.md) 
+
