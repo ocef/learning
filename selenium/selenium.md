@@ -9,6 +9,8 @@ The following steps will get you set up for programming to drive a browser under
 
 * Install NodeJS (and npm of course)
 
+* Download chromedriver (win32) from http://chromedriver.storage.googleapis.com/index.html?path=2.20/, then extract the zip file, place chromedriver.exe under any Windows system path.
+
 * Create a project folder
 
 * Go to Git Bash command line
