@@ -47,4 +47,22 @@ node test.js
 A new Chrome browser should be opened at this point. As soon as the window is completely loaded, it will be closed. 
 Because this particular website (ocef.org) involves loading external resources such as Sina weibo, the process is enjoyably slow.
 
+**Drive Firefox Browser Instead of Chrome**
+
+It's actually easier to drive a Firefox browser instead of Chrome browser. 
+On Windows, if you already have Firefox installed under "c:\Program Files\Mozilla Firefox", which could be the case most of the time,
+there's no additional environment setup needed. Simply replace 
+
+```
+.forBrowser('chrome')
+```
+
+with 
+
+```
+.forBrowser('firefox')
+```
+
+and you are good to go.
+
 ### Have fund with Selenium and NodeJS
