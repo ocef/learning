@@ -5,7 +5,9 @@ that works like an "action recorder" on FireFox. The later can work with differe
 
 ## Drive Selenium with NodeJS
 
-The following steps will get you set up for programming to drive a browser under Windows:
+**Drive Chrome Browser**
+
+The following steps will get you set up for programming to drive a Chrome browser under Windows:
 
 * Install NodeJS (and npm of course)
 
@@ -47,7 +49,7 @@ node test.js
 A new Chrome browser should be opened at this point. As soon as the window is completely loaded, it will be closed. 
 Because this particular website (ocef.org) involves loading external resources such as Sina weibo, the process is enjoyably slow.
 
-**Drive Firefox Browser Instead of Chrome**
+**Drive Firefox Browser**
 
 It's actually easier to drive a Firefox browser instead of Chrome browser. 
 On Windows, if you already have Firefox installed under "c:\Program Files\Mozilla Firefox", which could be the case most of the time,
@@ -61,6 +63,24 @@ with
 
 ```
 .forBrowser('firefox')
+```
+
+and you are good to go.
+
+**Drive PhantomJS Headless Browser**
+
+First, [download PhantomJS](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.0.0-windows.zip) and extract executable under a Windows system path
+ 
+Then replace 
+
+```
+.forBrowser('chrome')
+```
+
+with 
+
+```
+.forBrowser('phantomjs')
 ```
 
 and you are good to go.
