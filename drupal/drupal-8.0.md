@@ -8,17 +8,17 @@ https://www.apachefriends.org/
 
 This will provide PHP, MySQL, and Apache server. Use default installation directory "c:\xampp".
 
-#### Download Latest Drupal 8.x release from
+#### Download Drupal 8 from
 
-https://www.drupal.org/project/drupal/releases/8.1.3
+https://www.drupal.org/node/2619030
 
-Then extract the .zip or .gz file under "c:\xampp\htdocs", so that a new folder "C:\xampp\htdocs\drupal-8.1.3" is created with Drupal files.
+Then extract the .zip or .gz file under "c:\xampp\htdocs", so that a new folder "C:\xampp\htdocs\drupal-8.0.0" is created with Drupal files.
 
 #### Start Installation
 
-In XAMPP Control Panel, start Apache. From a browser, visit 
+In XAMPP, start Apache. From a browser, visit 
 
-http://localhost/drupal-8.1.3
+http://localhost/drupal-8.0.0
 
 A Drupal installation page should show up. Here are the choices to make during installation:
 
@@ -28,7 +28,7 @@ A Drupal installation page should show up. Here are the choices to make during i
 
 3. Requirements review -- "continue anyway" upon any warning
 
-4. Database configuration -- "SQLite" with default database file path (in practice, MySQL is the more popular option)
+4. Database configuration -- "SQLite" with default database file path
 
 5. Configure site -- fill in "site name", "site email address" (doesn't have to be real), site maintenance account (make up a user name, such as "admin"), password (make up a password), Email address (doesn't have to be real), and other options
 
@@ -36,4 +36,4 @@ After that, just wait for the installation process to complete.
 
 ### Play around and have fun !
 
-(Previous ["Getting Started" page for Drupal 8.0](drupal-8.0.md))
+
